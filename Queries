@@ -1,0 +1,78 @@
+//The following code is used to find customers who paid more than $10,000 on a single
+game, this query is useful in finding customers who come to spend a lot of money and
+to target them with more incentives to spend more money
+
+
+select AmountPaid,AmountGiven, Customers.CustomerID, CustomerFirstName,
+CustomerLastName
+from games, Customers
+Where AmountGiven &gt;= 10000
+and Games.CustomerID = Customers.CustomerID;
+
+// the following code is used to find if there are any customers who lost any amount of
+money and proceeded to do anything that would involve security 
+
+Select customerfirstname, customerlastname, customers.customerid, amountgiven,
+incidentid, incidentdescription
+from customers, games, incident
+where customers.customerid = incident.customerid
+and games.customerid = customers.customerid;
+
+// this query helps to find customers who have had more than one occurence with
+security at the casino
+
+SELECT
+c.CustomerID,
+COUNT(c.CustomerID) AS OffenceOccurrences,
+c.CustomerFirstName,
+c.CustomerLastName
+FROM
+Customers c
+JOIN
+Incident i ON c.CustomerID = i.CustomerID
+GROUP BY
+c.CustomerID, c.CustomerFirstName, c.CustomerLastName
+HAVING
+COUNT(c.CustomerID) &gt; 1;
+
+// this query wants to see what customers purchased what tickets to what event
+
+Select customers.CustomerID, CustomerFirstName, CustomerLastName,
+Event.EventID, EventName
+from Customers, Event, ticket
+where customers.customerid = ticket.customerid
+and event.eventid = ticket.eventid;
+
+// this query wants to see what employees cleaned the hotel rooms
+
+select employee.employeeid, employeefirstname, employeelastname
+from hotelrooms, employee
+where employee.employeeid = hotelrooms.employeeid;
+
+//this query helps to find when maintenance was called for a glitch in the system
+
+select* from maintenance
+select * from maintenance
+where maintenanceName like '%Glitch%';
+
+//this query helps to find all of the members who are gold and helps to apply rewards
+and things like that
+
+select * from rewards
+where membershiplevel = 'Gold';
+
+// this query helps to find all products that are near expiration in order to see what
+needs to be replaced
+
+select * from inventory
+where expirationdate <= '12-DEC-25';
+
+//this query helps to find all of the instances where a customer spent money on gasoline
+
+select * from transactions
+where transactionname = 'Gasoline';
+
+// this query involves a customer who is scared of heights, she requested that we find a
+room that is below the second floor
+select * from hotelrooms
+where roomnumber <= '2000';
