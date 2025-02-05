@@ -1,0 +1,650 @@
+Create table Employee(
+EmployeeID Number(11,0) Not Null,
+EmployeeFirstName VARCHAR2(20) ,
+EmployeeLastName VARCHAR2(30) ,
+DateHired Date,
+Constraint Employee_PK Primary Key (EmployeeID));
+
+INSERT INTO Employee (EmployeeID, EmployeeFirstName, EmployeeLastName,
+DateHired)
+VALUES (56091239450, &#39;Jason&#39;, &#39;Stein&#39;, TO_DATE(&#39;2021-09-12&#39;, &#39;YYYY-MM-DD&#39;));
+
+INSERT INTO Employee (EmployeeID, EmployeeFirstName, EmployeeLastName,
+DateHired)
+VALUES (75389231857, &#39;Olivia&#39;, &#39;Olstin&#39;, TO_DATE(&#39;2019-07-15&#39;, &#39;YYYY-MM-DD&#39;));
+
+INSERT INTO Employee (EmployeeID, EmployeeFirstName, EmployeeLastName,
+DateHired)
+VALUES (89913745122, &#39;Mike&#39;, &#39;Malott&#39;, TO_DATE(&#39;2020-09-11&#39;, &#39;YYYY-MM-DD&#39;));
+
+INSERT INTO Employee (EmployeeID, EmployeeFirstName, EmployeeLastName,
+DateHired)
+VALUES (56781034209, &#39;Noah&#39;, &#39;Tovar&#39;, TO_DATE(&#39;2017-03-25&#39;, &#39;YYYY-MM-DD&#39;));
+
+INSERT INTO Employee (EmployeeID, EmployeeFirstName, EmployeeLastName,
+DateHired)
+VALUES (56781034209, &#39;Albert&#39;, &#39;Einstein&#39;, TO_DATE(&#39;2018-09-13&#39;, &#39;YYYY-MM-DD&#39;));
+
+Insert Into employee (EmployeeID, EmployeeFirstName, EmployeeLastName,
+DateHired)
+
+Values (08235760912, &#39;Mal&#39;,&#39;Mick&#39;, To_Date(&#39;1999-07-13&#39;, &#39;YYYY-MM-DD&#39;));
+
+INSERT INTO Employee (EmployeeID, EmployeeFirstName, EmployeeLastName,
+DateHired)
+VALUES (56901239500, &#39;Anna&#39;, &#39;Kendrick&#39;, TO_DATE(&#39;2022-01-15&#39;, &#39;YYYY-MM-DD&#39;));
+
+INSERT INTO Employee (EmployeeID, EmployeeFirstName, EmployeeLastName,
+DateHired)
+VALUES (56901239501, &#39;Chris&#39;, &#39;Evans&#39;, TO_DATE(&#39;2022-02-20&#39;, &#39;YYYY-MM-DD&#39;));
+
+INSERT INTO Employee (EmployeeID, EmployeeFirstName, EmployeeLastName,
+DateHired)
+VALUES (56901239502, &#39;Emma&#39;, &#39;Stone&#39;, TO_DATE(&#39;2021-08-30&#39;, &#39;YYYY-MM-DD&#39;));
+
+INSERT INTO Employee (EmployeeID, EmployeeFirstName, EmployeeLastName,
+DateHired)
+VALUES (56901239503, &#39;Ryan&#39;, &#39;Reynolds&#39;, TO_DATE(&#39;2020-05-25&#39;, &#39;YYYY-MM-DD&#39;));
+
+INSERT INTO Employee (EmployeeID, EmployeeFirstName, EmployeeLastName,
+DateHired)
+VALUES (56901239504, &#39;Scarlett&#39;, &#39;Johansson&#39;, TO_DATE(&#39;2019-11-10&#39;, &#39;YYYY-MM-
+DD&#39;));
+
+INSERT INTO Employee (EmployeeID, EmployeeFirstName, EmployeeLastName,
+DateHired)
+VALUES (56901239505, &#39;Mark&#39;, &#39;Ralo&#39;, TO_DATE(&#39;2018-04-16&#39;, &#39;YYYY-MM-DD&#39;));
+
+INSERT INTO Employee (EmployeeID, EmployeeFirstName, EmployeeLastName,
+DateHired)
+VALUES (56901239506, &#39;Zoe&#39;, &#39;Hasan&#39;, TO_DATE(&#39;2021-12-05&#39;, &#39;YYYY-MM-DD&#39;));
+
+INSERT INTO Employee (EmployeeID, EmployeeFirstName, EmployeeLastName,
+DateHired)
+VALUES (56901239507, &#39;Bradley&#39;, &#39;Cooper&#39;, TO_DATE(&#39;2022-06-22&#39;, &#39;YYYY-MM-DD&#39;));
+
+INSERT INTO Employee (EmployeeID, EmployeeFirstName, EmployeeLastName,
+DateHired)
+VALUES (56901239508, &#39;Vin&#39;, &#39;Gasolineel&#39;, TO_DATE(&#39;2019-01-30&#39;, &#39;YYYY-MM-DD&#39;));
+
+INSERT INTO Employee (EmployeeID, EmployeeFirstName, EmployeeLastName,
+DateHired)
+VALUES (56901239509, &#39;Dave&#39;, &#39;Bautista&#39;, TO_DATE(&#39;2023-03-15&#39;, &#39;YYYY-MM-DD&#39;));
+
+INSERT INTO Employee (EmployeeID, EmployeeFirstName, EmployeeLastName,
+DateHired)
+VALUES (56901239510, &#39;Chris&#39;, &#39;NotPratt&#39;, TO_DATE(&#39;2020-07-09&#39;, &#39;YYYY-MM-DD&#39;));
+
+INSERT INTO Employee (EmployeeID, EmployeeFirstName, EmployeeLastName,
+DateHired)
+VALUES (56901239511, &#39;Tom&#39;, &#39;Halendags&#39;, TO_DATE(&#39;2023-01-20&#39;, &#39;YYYY-MM-DD&#39;));
+
+INSERT INTO Employee (EmployeeID, EmployeeFirstName, EmployeeLastName,
+DateHired)
+VALUES (56901239512, &#39;Benedict&#39;, &#39;Cumberbatch&#39;, TO_DATE(&#39;2021-10-14&#39;, &#39;YYYY-MM-
+DD&#39;));
+
+INSERT INTO Employee (EmployeeID, EmployeeFirstName, EmployeeLastName,
+DateHired)
+VALUES (56901239513, &#39;Black&#39;, &#39;Panther&#39;, TO_DATE(&#39;2018-07-21&#39;, &#39;YYYY-MM-DD&#39;));
+
+INSERT INTO Employee (EmployeeID, EmployeeFirstName, EmployeeLastName,
+DateHired)
+VALUES (56901239514, &#39;Samuel&#39;, &#39;Jackson&#39;, TO_DATE(&#39;2019-09-25&#39;, &#39;YYYY-MM-DD&#39;));
+
+Create Table Supplier(
+SupplierID Number(11,0) Not Null,
+SupplierName VARCHAR2(30),
+DateSupplied Date,
+EmployeeID Number(11,0),
+Constraint Supplier_PK Primary Key (SupplierID),
+Constraint Supplier_FK Foreign Key (EmployeeID) References
+Employee(EmployeeID));
+
+INSERT into Supplier (SupplierID, SupplierName, DateSupplied, EmployeeID)
+VALUES (09124576910, &#39;ToolCo&#39;, To_Date(&#39;2024-02-17&#39;, &#39;YYYY-MM-DD&#39;),
+56901239506);
+
+INSERT into Supplier (SupplierID, SupplierName, DateSupplied, EmployeeID)
+VALUES (18054027901, &#39;VentBros&#39;, To_Date(&#39;2024-01-19&#39;, &#39;YYYY-MM-DD&#39;),
+56901239506);
+
+INSERT into Supplier (SupplierID, SupplierName, DateSupplied, EmployeeID)
+VALUES (78405671092, &#39;GamerFriends&#39;, To_Date(&#39;2023-09-17&#39;, &#39;YYYY-MM-DD&#39;),
+56901239506);
+
+INSERT into Supplier (SupplierID, SupplierName, DateSupplied, EmployeeID)
+VALUES (01234769010, &#39;BoozBros&#39;, To_Date(&#39;2023-01-17&#39;, &#39;YYYY-MM-DD&#39;),
+56901239506);
+
+INSERT into Supplier (SupplierID, SupplierName, DateSupplied, EmployeeID)
+VALUES (12357809102, &#39;JasonsVents&#39;, To_Date(&#39;2022-02-17&#39;, &#39;YYYY-MM-DD&#39;),
+56901239506);
+
+Create Table Inventory(
+InventoryID Number(11,0) Not Null,
+InventoryName VARCHAR2(20),
+ExpirationDate Date,
+SupplierID Number(11,0),
+EmployeeID Number(11,0),
+Constraint Inventory_PK Primary Key (InventoryID),
+Constraint Inventory_FK1 Foreign Key (SupplierID) References Supplier(SupplierID),
+Constraint Inventory_FK2 Foreign Key (EmployeeID) References Employee
+(EmployeeID))
+;
+
+Insert into Inventory (InventoryID, InventoryName, ExpirationDate, SupplierID,
+EmployeeID)
+Values (08574109820, &#39;Mops&#39;, To_Date(&#39;2025-08-09&#39;, &#39;YYYY-MM-DD&#39;), 09124576910,
+56901239513)
+;
+
+Insert into Inventory (InventoryID, InventoryName, ExpirationDate, SupplierID,
+EmployeeID)
+Values (02359870912, &#39;Tequila&#39;, To_Date(&#39;2040-02-15&#39;, &#39;YYYY-MM-DD&#39;), 01234769010,
+56901239513)
+;
+Insert into Inventory (InventoryID, InventoryName, ExpirationDate, SupplierID,
+EmployeeID)
+
+Values (07237568190, &#39;Whiskey&#39;, To_Date(&#39;2045-01-06&#39;, &#39;YYYY-MM-DD&#39;),
+01234769010, 56901239513)
+;
+Insert into Inventory (InventoryID, InventoryName, ExpirationDate, SupplierID,
+EmployeeID)
+Values (81235867901, &#39;TicketPapers&#39;, To_Date(&#39;2023-01-09&#39;, &#39;YYYY-MM-DD&#39;),
+09124576910,56901239513)
+;
+Insert into Inventory (InventoryID, InventoryName, ExpirationDate, SupplierID,
+EmployeeID)
+Values (98102836579, &#39;Soap&#39;, To_Date(&#39;2024-10-09&#39;, &#39;YYYY-MM-DD&#39;),09124576910,
+56901239512)
+;
+
+Create Table Customers(
+CustomerID Number(11,0) Not Null,
+CustomerFirstName VARCHAR2(20),
+CustomerLastName VARCHAR2(30),
+Constraint Customer_PK Primary Key (CustomerID));
+
+Insert into Customers (CustomerID, CustomerFirstName, CustomerLastName)
+values (08234907981, &#39;Jerry&#39;, &#39;Springer&#39;);
+Insert into Customers (CustomerID, CustomerFirstName, CustomerLastName)
+values (09234590791, &#39;Rick&#39;, &#39;Flair&#39;);
+Insert into Customers (CustomerID, CustomerFirstName, CustomerLastName)
+values (09236901901, &#39;Jack&#39;, &#39;Black&#39;);
+Insert into Customers (CustomerID, CustomerFirstName, CustomerLastName)
+values (01293058970, &#39;Jason&#39;, &#39;Springer&#39;);
+Insert into Customers (CustomerID, CustomerFirstName, CustomerLastName)
+
+values (08529012931, &#39;Vic&#39;, &#39;Damone&#39;);
+Insert into Customers (CustomerID, CustomerFirstName, CustomerLastName)
+values (08525912931, &#39;Noah&#39;, &#39;Toar&#39;);
+Insert into Customers (CustomerID, CustomerFirstName, CustomerLastName)
+values (08522312931, &#39;Mack&#39;, &#39;Damone&#39;);
+Insert into Customers (CustomerID, CustomerFirstName, CustomerLastName)
+values (08529052931, &#39;James&#39;, &#39;Bond&#39;);
+Insert into Customers (CustomerID, CustomerFirstName, CustomerLastName)
+values (08529122931, &#39;Whatsit&#39;, &#39;Toya&#39;);
+Insert into Customers (CustomerID, CustomerFirstName, CustomerLastName)
+values (08521312931, &#39;Lee&#39;, &#39;Jan&#39;);
+Insert into Customers (CustomerID, CustomerFirstName, CustomerLastName)
+values (08992901291, &#39;Maz&#39;, &#39;Maek&#39;);
+Insert into Customers (CustomerID, CustomerFirstName, CustomerLastName)
+values (08529212931, &#39;Kil&#39;, &#39;Pin&#39;);
+Insert into Customers (CustomerID, CustomerFirstName, CustomerLastName)
+values (08529212932, &#39;John&#39;, &#39;Doe&#39;);
+Insert into Customers (CustomerID, CustomerFirstName, CustomerLastName)
+values (08529212933, &#39;Jane&#39;, &#39;Doe&#39;);
+Insert into Customers (CustomerID, CustomerFirstName, CustomerLastName)
+values (08529212934, &#39;Jim&#39;, &#39;Beam&#39;);
+Insert into Customers (CustomerID, CustomerFirstName, CustomerLastName)
+values (08529212935, &#39;Jill&#39;, &#39;Valentine&#39;);
+Insert into Customers (CustomerID, CustomerFirstName, CustomerLastName)
+values (08529212936, &#39;Tony&#39;, &#39;Stark&#39;);
+Insert into Customers (CustomerID, CustomerFirstName, CustomerLastName)
+values (08529212937, &#39;Bruce&#39;, &#39;Wayne&#39;);
+
+Insert into Customers (CustomerID, CustomerFirstName, CustomerLastName)
+values (08529212938, &#39;Clark&#39;, &#39;Kent&#39;);
+Insert into Customers (CustomerID, CustomerFirstName, CustomerLastName)
+values (08529212939, &#39;Peter&#39;, &#39;Parker&#39;);
+Insert into Customers (CustomerID, CustomerFirstName, CustomerLastName)
+values (08529212940, &#39;Logan&#39;, &#39;Howlett&#39;);
+Insert into Customers (CustomerID, CustomerFirstName, CustomerLastName)
+values (08529212941, &#39;Natasha&#39;, &#39;Romanoff&#39;);
+Insert into Customers (CustomerID, CustomerFirstName, CustomerLastName)
+values (08529212942, &#39;Steve&#39;, &#39;Rogers&#39;);
+Insert into Customers (CustomerID, CustomerFirstName, CustomerLastName)
+values (08529212943, &#39;Thor&#39;, &#39;Odinson&#39;);
+Insert into Customers (CustomerID, CustomerFirstName, CustomerLastName)
+values (08529212944, &#39;Loki&#39;, &#39;Laufeyson&#39;);
+Insert into Customers (CustomerID, CustomerFirstName, CustomerLastName)
+values (08529212945, &#39;Wanda&#39;, &#39;Maximoff&#39;);
+Insert into Customers (CustomerID, CustomerFirstName, CustomerLastName)
+values (08529212946, &#39;Pietro&#39;, &#39;Maximoff&#39;);
+Insert into Customers (CustomerID, CustomerFirstName, CustomerLastName)
+values (08529212947, &#39;Stephen&#39;, &#39;Strange&#39;);
+Insert into Customers (CustomerID, CustomerFirstName, CustomerLastName)
+values (08529212948, &#39;Nick&#39;, &#39;Fury&#39;);
+Insert into Customers (CustomerID, CustomerFirstName, CustomerLastName)
+values (08529212949, &#39;Maria&#39;, &#39;Hill&#39;);
+Insert into Customers (CustomerID, CustomerFirstName, CustomerLastName)
+values (08529212950, &#39;Phil&#39;, &#39;Coulson&#39;);
+Insert into Customers (CustomerID, CustomerFirstName, CustomerLastName)
+
+values (08529212951, &#39;Pepper&#39;, &#39;Potts&#39;);
+Insert into Customers (CustomerID, CustomerFirstName, CustomerLastName)
+values (08529212952, &#39;Happy&#39;, &#39;Hogan&#39;);
+Insert into Customers (CustomerID, CustomerFirstName, CustomerLastName)
+values (08529212953, &#39;Tonya&#39;, &#39;Harding&#39;);
+Insert into Customers (CustomerID, CustomerFirstName, CustomerLastName)
+values (08529212954, &#39;Nancy&#39;, &#39;Kerrigan&#39;);
+Insert into Customers (CustomerID, CustomerFirstName, CustomerLastName)
+values (08529212955, &#39;Serena&#39;, &#39;Williams&#39;);
+Insert into Customers (CustomerID, CustomerFirstName, CustomerLastName)
+values (08529212956, &#39;Venus&#39;, &#39;Williams&#39;);
+Insert into Customers (CustomerID, CustomerFirstName, CustomerLastName)
+values (08529212957, &#39;Roger&#39;, &#39;Federer&#39;);
+Insert into Customers (CustomerID, CustomerFirstName, CustomerLastName)
+values (08529212958, &#39;Rafael&#39;, &#39;Nadal&#39;);
+Insert into Customers (CustomerID, CustomerFirstName, CustomerLastName)
+values (08529212959, &#39;Novak&#39;, &#39;Djokovic&#39;);
+Insert into Customers (CustomerID, CustomerFirstName, CustomerLastName)
+values (08529212960, &#39;Maria&#39;, &#39;Sharapova&#39;);
+Insert into Customers (CustomerID, CustomerFirstName, CustomerLastName)
+values (08529212961, &#39;Simone&#39;, &#39;Biles&#39;);
+Insert into Customers (CustomerID, CustomerFirstName, CustomerLastName)
+values (08529212962, &#39;LeBron&#39;, &#39;James&#39;);
+Insert into Customers (CustomerID, CustomerFirstName, CustomerLastName)
+values (08529212963, &#39;Michael&#39;, &#39;Jordan&#39;);
+Insert into Customers (CustomerID, CustomerFirstName, CustomerLastName)
+values (08529212964, &#39;Kobe&#39;, &#39;Bryant&#39;);
+
+Insert into Customers (CustomerID, CustomerFirstName, CustomerLastName)
+values (08529212965, &#39;Shaquille&#39;, &#39;O’Neal&#39;);
+Insert into Customers (CustomerID, CustomerFirstName, CustomerLastName)
+values (08529212966, &#39;Magic&#39;, &#39;Johnson&#39;);
+
+Create Table Incident(
+IncidentID Number(11,0) Not Null,
+IncidentDescription VARCHAR2(2000),
+EmployeeID Number(11,0),
+CustomerID Number(11,0),
+Constraint Incident_PK Primary Key (IncidentID),
+Constraint Incident_FK1 Foreign Key (EmployeeID) References
+Employee(EmployeeID),
+Constraint Incident_FK2 Foreign Key (CustomerID) References
+Customers(CustomerID));
+
+Insert into Incident (IncidentID, IncidentDescription, EmployeeID, CustomerID)
+Values (09376910295, &#39;Bar_Fight_Both_Customers_Fighting_Over_Girl&#39;, 08235760912,
+08234907981);
+Insert into Incident (IncidentID, IncidentDescription, EmployeeID, CustomerID)
+Values (09345786901, &#39;Bar_Fight_Both_Customers_Off_The_Henny&#39;, 08235760912,
+08522312931);
+Insert into Incident (IncidentID, IncidentDescription, EmployeeID, CustomerID)
+Values (09216879102, &#39;Fight_In_Hotel&#39;, 08235760912, 08529212940);
+Insert into Incident (IncidentID, IncidentDescription, EmployeeID, CustomerID)
+Values (08569012931, &#39;Drunk_Man_Passed_Out_Under_BlackJack_Table&#39;,
+08235760912, 08529212935);
+Insert into Incident (IncidentID, IncidentDescription, EmployeeID, CustomerID)
+
+Values (08529012931, &#39;Man_Threw_Up_After_Eating_Bad_Sushi&#39;, 08235760912,
+08529212935);
+
+Create Table DateOfIncident(
+IncidentID Number(11,0) Not Null,
+CustomerID Number(11,0),
+DateofIncident Date,
+Constraint Date_Of_Incident_PK Primary Key (IncidentID, CustomerID),
+Constraint Date_Of_Incident_FK1 Foreign Key (IncidentID) References
+Incident(IncidentID),
+Constraint Date_Of_Incident_FK2 Foreign Key (CustomerID) References
+Customers(CustomerID)
+);
+
+Insert into DateofIncident(IncidentID,CustomerID, DateOfIncident)
+values (09376910295, 08529212953, To_Date(&#39;2024-01-09&#39;, &quot;YYYY-MM-DD&quot;));
+Insert into DateofIncident(IncidentID,CustomerID, DateOfIncident)
+values (09345786901, 09234590791, To_Date(&#39;2023-10-09&#39;, &#39;YYYY-MM-DD&#39;));
+Insert into DateofIncident(IncidentID,CustomerID, DateOfIncident)
+values (09216879102, 09236901901, To_Date(&#39;2022-11-07&#39;, &#39;YYYY-MM-DD&#39;));
+Insert into DateofIncident(IncidentID,CustomerID, DateOfIncident)
+values (08569012931, 01293058970, To_Date(&#39;2021-11-07&#39;, &#39;YYYY-MM-DD&#39;));
+Insert into DateofIncident(IncidentID,CustomerID, DateOfIncident)
+values (08529012931, 08529212935, To_Date(&#39;2021-11-07&#39;, &#39;YYYY-MM-DD&#39;));
+
+Create Table Rewards(
+RewardsID Number(11,0) Not Null,
+MemberName Varchar2(50),
+
+MembershipLevel Varchar2(20),
+CustomerID Number(11,0),
+Constraint Rewards_PK Primary Key (RewardsID),
+Constraint Rewards_FK Foreign Key (CustomerID) References
+Customers(CustomerID));
+
+Insert into Rewards (RewardsID, MemberName, MembershipLevel, CustomerID)
+values (01090912010, &#39;Phil&#39;, &#39;Silver&#39;, 08529212950);
+Insert into Rewards (RewardsID, MemberName, MembershipLevel, CustomerID)
+values (01090912011, &#39;Pepper&#39;, &#39;Gold&#39;, 08529212951);
+Insert into Rewards (RewardsID, MemberName, MembershipLevel, CustomerID)
+values (01090912012, &#39;Happy&#39;, &#39;Gold&#39;, 08529212952);
+Insert into Rewards (RewardsID, MemberName, MembershipLevel, CustomerID)
+values (01090912013, &#39;Tonya&#39;, &#39;Gold&#39;, 08529212953);
+Insert into Rewards (RewardsID, MemberName, MembershipLevel, CustomerID)
+values (01090912014, &#39;Nancy&#39;, &#39;Gold&#39;, 08529212954);
+
+Create Table HotelBooking(
+BookingId Number(11,0) Not Null,
+CustomerID Number(11,0),
+BookingDate Date;
+RewardsID Number(11,0),
+
+CONSTRAINT HotelBooking_PK Primary Key (BookingID),
+Constraint HotelBooking_FK1 Foreign Key (CustomerID) References
+Customers(CustomerID),
+Constraint HotelBooking_FK2 Foreign Key (RewardsID) References
+Rewards(RewardsID));
+
+//work on removing bookingdate and turning it into date column
+
+alter table hotelbooking drop column BookingDATE;
+ALTER TABLE HotelBooking
+ADD (BookingDate DATE);
+
+Insert into HotelBooking(BookingID, BookingDate, CustomerID, RewardsID)
+values (09123590190, To_Date(&#39;2024-02-09&#39;, &#39;YYYY-MM-DD&#39;), 08529212950,
+01090912010)
+Insert into HotelBooking(BookingID, BookingDate, CustomerID, RewardsID)
+values (01293459101, To_Date(&#39;2024-02-10&#39;, &#39;YYYY-MM-DD&#39;), 08529212951,
+01090912011);
+Insert into HotelBooking(BookingID, BookingDate, CustomerID, RewardsID)
+values (01923049591, To_Date(&#39;2024-02-11&#39;, &#39;YYYY-MM-DD&#39;), 08529212952,
+01090912012);
+Insert into HotelBooking(BookingID, BookingDate, CustomerID, RewardsID)
+values (01293949586, To_Date(&#39;2024-02-12&#39;, &#39;YYYY-MM-DD&#39;), 08529212953,
+01090912013);
+Insert into HotelBooking(BookingID, BookingDate, CustomerID, RewardsID)
+values (10293949510, To_Date(&#39;2024-02-13&#39;, &#39;YYYY-MM-DD&#39;), 08529212954,
+01090912014);
+
+Create Table HotelRooms (
+RoomID Number(11,0) Not Null,
+RoomNumber Number(4,0),
+CustomerID Number(11,0),
+EmployeeID Number(11,0),
+BookingID Number(11,0),
+
+Constraint HotelRoom_PK Primary Key (RoomID),
+Constraint HotelRoom_FK1 Foreign Key (CustomerID) References
+Customers(CustomerID),
+Constraint HotelRoom_FK2 Foreign Key (EmployeeID) References
+Employee(EmployeeID),
+Constraint HotelRoom_FK3 Foreign Key (BookingID) References
+HotelBooking(BookingID));
+
+Insert into HotelRooms (RoomID, RoomNumber, CustomerID, EmployeeID, BookingID)
+values (09123458910, 4011, 08529212932, 56901239507, 01923049591);
+Insert into HotelRooms (RoomID, RoomNumber, CustomerID, EmployeeID, BookingID)
+values (01294061091, 3101, 08529212946, 56901239508, 01293459101);
+Insert into HotelRooms (RoomID, RoomNumber, CustomerID, EmployeeID, BookingID)
+values (01238591011, 2111, 08529212947, 56901239509, 01923049591);
+Insert into HotelRooms (RoomID, RoomNumber, CustomerID, EmployeeID, BookingID)
+values (01234951021, 1090, 08529212948, 56901239510, 01293949586);
+Insert into HotelRooms (RoomID, RoomNumber, CustomerID, EmployeeID, BookingID)
+values (01923401920, 1091, 08529212949, 56901239511, 10293949510);
+
+Create Table DateBooked(
+BookingID Number(11,0) Not Null,
+CustomerID Number (11,0),
+DateofBooking Date,
+Constraint DateBooked_PK Primary Key (BookingID, CustomerID),
+Constraint DateBooked_FK1 Foreign Key (BookingID) References
+HotelBooking(BookingID),
+Constraint DateBooked_FK2 Foreign Key (CustomerID) References
+Customers(CustomerID));
+
+alter table datebooked drop constraint DateBooked_FK2;
+alter table datebooked add constraint DateBooked_FK2 Foreign Key (CustomerID)
+references Customer(CustomerID);
+
+Insert into DateBooked (BookingID, CustomerID, DateofBooking)
+values (9123590190,8529212965, To_Date(&#39;2021-11-07&#39;, &#39;YYYY-MM-DD&#39;));
+Insert into DateBooked (BookingID, CustomerID, DateofBooking)
+values (1293459101,8529212939, To_Date(&#39;2023-10-07&#39;, &#39;YYYY-MM-DD&#39;));
+Insert into DateBooked (BookingID, CustomerID, DateofBooking)
+values (1923049591,8529212940, To_Date(&#39;2023-11-01&#39;, &#39;YYYY-MM-DD&#39;));
+Insert into DateBooked (BookingID, CustomerID, DateofBooking)
+values (1293949586,8529212941, To_Date(&#39;2024-01-01&#39;, &#39;YYYY-MM-DD&#39;));
+Insert into DateBooked (BookingID, CustomerID, DateofBooking)
+values (10293949510,8529212942, To_Date(&#39;2024-01-07&#39;, &#39;YYYY-MM-DD&#39;));
+
+Create Table DatesOfStay(
+CustomerID Number(11,0) Not Null,
+RoomID Number(11,0),
+StartDate DATE,
+EndDate Date,
+Constraint DatesofStay_PK Primary Key (CustomerID, RoomID),
+Constraint DatesOfStay_FK1 Foreign Key (CustomerID) References
+Customers(CustomerID),
+Constraint DatesOfStay_FK2 Foreign Key (RoomID) References HotelRooms(RoomID)
+);
+Insert into DatesOfStay(CustomerID, RoomID, StartDate, EndDate)
+
+values (8529212965,9123458910, To_Date(&#39;2022-11-07&#39;, &#39;YYYY-MM-DD&#39;),
+To_Date(&#39;2022-11-09&#39;, &#39;YYYY-MM-DD&#39;));
+Insert into DatesOfStay(CustomerID, RoomID, StartDate, EndDate)
+values (8529212939,1294061091, To_Date(&#39;2024-09-07&#39;, &#39;YYYY-MM-DD&#39;),
+To_Date(&#39;2024-09-07&#39;, &#39;YYYY-MM-DD&#39;));
+Insert into DatesOfStay(CustomerID, RoomID, StartDate, EndDate)
+values (8529212940,1238591011, To_Date(&#39;2023-11-07&#39;, &#39;YYYY-MM-DD&#39;),
+To_Date(&#39;2023-11-08&#39;, &#39;YYYY-MM-DD&#39;));
+Insert into DatesOfStay(CustomerID, RoomID, StartDate, EndDate)
+values (8529212941,1234951021, To_Date(&#39;2024-01-07&#39;, &#39;YYYY-MM-DD&#39;),
+To_Date(&#39;2024-01-09&#39;, &#39;YYYY-MM-DD&#39;));
+Insert into DatesOfStay(CustomerID, RoomID, StartDate, EndDate)
+values (8529212942,1923401920, To_Date(&#39;2024-02-06&#39;, &#39;YYYY-MM-DD&#39;),
+To_Date(&#39;2024-02-10&#39;, &#39;YYYY-MM-DD&#39;));
+
+Create Table DateofCleaning(
+RoomID Number(11,0) Not Null,
+EmployeeID Number(11,0),
+DateCleaned Date,
+Constraint DateofCleaning_PK Primary Key (RoomID, EmployeeID),
+Constraint DateofCleaning_FK1 Foreign Key (RoomID) References
+HotelRooms(RoomID),
+Constraint DateofCleaning_FK2 Foreign Key (EmployeeID) References
+Employee(EmployeeID)
+);
+
+Insert into DateofCleaning (RoomID, EmployeeID, DateCleaned)
+values (09123458910,56901239512,To_Date(&#39;2024-01-08&#39;, &quot;YYYY-MM-DD&quot;));
+Insert into DateOfCleaning (RoomID, EmployeeID, DateCleaned)
+
+values (01294061091,56901239513,To_Date(&#39;2024-01-09&#39;, &quot;YYYY-MM-DD&quot;));
+Insert into DateOfCleaning (RoomID, EmployeeID, DateCleaned)
+values (01238591011,56901239514,To_Date(&#39;2024-01-10&#39;, &quot;YYYY-MM-DD&quot;));
+Insert into DateOfCleaning (RoomID, EmployeeID, DateCleaned)
+values (01234951021,56901239509,To_Date(&#39;2024-01-11&#39;, &quot;YYYY-MM-DD&quot;));
+Insert into DateOfCleaning (RoomID, EmployeeID, DateCleaned)
+values (01923401920,56901239508,To_Date(&#39;2024-01-12&#39;, &quot;YYYY-MM-DD&quot;));
+
+Create table Event(
+EventID Number(11,0) Not Null,
+EventName Varchar2(20),
+DateofEvent DATE,
+EmployeeID Number(11,0),
+Constraint Events_PK Primary Key (EventID),
+Constraint Events_FK Foreign Key (EmployeeID) References Employee(EmployeeID)
+);
+
+Insert into Events(EventID, EventName, DateofEvent, EmployeeID)
+values (12345678901, &#39;MorganWallen&#39;, To_Date(&#39;2023-07-01&#39;,&#39;YYYY-MM-DD&#39;),
+56901239507);
+Insert into Events(EventID, EventName, DateofEvent, EmployeeID)
+values (12345678902, &#39;BadBunny&#39;, To_Date(&#39;2023-08-04&#39;,&#39;YYYY-MM-DD&#39;),
+56901239506);
+Insert into Events(EventID, EventName, DateofEvent, EmployeeID)
+values (12345678903, &#39;ZachCombs&#39;, To_Date(&#39;2023-09-04&#39;,&#39;YYYY-MM-DD&#39;),
+56901239505)
+Insert into Events(EventID, EventName, DateofEvent, EmployeeID)
+
+values (12345678904, &#39;PesoPluma&#39;, To_Date(&#39;2023-10-06&#39;,&#39;YYYY-MM-DD&#39;),
+56901239504);
+Insert into Events(EventID, EventName, DateofEvent, EmployeeID)
+values (12345678905, &#39;BadBunny&#39;, To_Date(&#39;2023-08-07&#39;,&#39;YYYY-MM-DD&#39;),
+56901239503);
+
+Create table Ticket(
+TicketNumber Number (11,0) Not Null,
+DatePurchased Date,
+CustomerID Number(11,0),
+EventID Number(11,0),
+Constraint Ticket_PK Primary Key (TicketNumber),
+Constraint Ticket_FK1 Foreign Key (CustomerID) References Customers(CustomerID),
+Constraint Ticket_FK2 Foreign Key (EventID) References Event (EventID));
+
+Insert into Ticket (TicketNumber, DatePurchased, CustomerID, EventID)
+values (12450945700, To_Date(&#39;2023-05-02&#39;, &#39;YYYY-MM-DD&#39;), 08529212956,
+12345678901);
+Insert into Ticket (TicketNumber, DatePurchased, CustomerID, EventID)
+values (12450945701, To_Date(&#39;2023-02-05&#39;, &#39;YYYY-MM-DD&#39;), 08529212957,
+12345678902);
+Insert into Ticket (TicketNumber, DatePurchased, CustomerID, EventID)
+values (12450945702, To_Date(&#39;2023-02-01&#39;, &#39;YYYY-MM-DD&#39;), 08529212958,
+12345678905);
+Insert into Ticket (TicketNumber, DatePurchased, CustomerID, EventID)
+values (12450945703, To_Date(&#39;2023-01-01&#39;, &#39;YYYY-MM-DD&#39;), 08529212959,
+12345678903);
+Insert into Ticket (TicketNumber, DatePurchased, CustomerID, EventID)
+
+values (12450945704, To_Date(&#39;2023-02-01&#39;, &#39;YYYY-MM-DD&#39;), 08529212960,
+12345678904);
+
+Create Table Transactions(
+TransactionID Number(11,0) Not Null,
+TransactionName VarChar2(20),
+DateOfTransaction Date,
+EmployeeID Number(11,0),
+CustomerID Number(11,0),
+Constraint Transactions_PK Primary Key (TransactionID),
+Constraint Transactions_FK1 Foreign Key (EmployeeID) References
+Employee(EmployeeID),
+Constraint Transaction_FK2 Foreign Key (CustomerID) References
+Customers(CustomerID)
+);
+
+Insert into Transactions (TransactionID, TransactionName, DateOfTransaction,
+EmployeeID, CustomerID)
+Values (018014579020, &#39;Gasoline&#39;, To_Date(&#39;2024-01-01&#39;, &#39;YYYY-MM-
+DD&#39;),56901239502,08529212961);
+Insert into Transactions (TransactionID, TransactionName, DateOfTransaction,
+EmployeeID, CustomerID)
+Values (018014579021, &#39;M_and_Ms&#39;, To_Date(&#39;2024-01-02&#39;, &#39;YYYY-MM-
+DD&#39;),56901239501,08529212962);
+Insert into Transactions (TransactionID, TransactionName, DateOfTransaction,
+EmployeeID, CustomerID)
+Values (018014579022, &#39;Liquor&#39;, To_Date(&#39;2024-01-02&#39;, &#39;YYYY-MM-
+DD&#39;),56901239500,08529212963);
+Insert into Transactions (TransactionID, TransactionName, DateOfTransaction,
+EmployeeID, CustomerID)
+
+Values (018014579023, &#39;Gasoline&#39;, To_Date(&#39;2024-01-04&#39;, &#39;YYYY-MM-
+DD&#39;),08235760912,08529212964);
+Insert into Transactions (TransactionID, TransactionName, DateOfTransaction,
+EmployeeID, CustomerID)
+Values (018014579024, &#39;Gasoline&#39;, To_Date(&#39;2024-01-09&#39;, &#39;YYYY-MM-
+DD&#39;),56781034209,08529212965);
+
+Create Table Maintenance(
+MaintenanceID Number(11,0) Not Null,
+MaintenanceName VarChar2(25),
+DateConducted Date,
+EmployeeID Number(11,0),
+Constraint Maintenance_PK Primary Key (MaintenanceID),
+Constraint Maintenance_FK Foreign Key (EmployeeID) References Employee
+(EmployeeID)
+);
+Insert into Maintenance (MaintenanceID, MaintenanceName, DateConducted,
+EmployeeID)
+values (027810276090, &#39;Adding_Paper&#39;, To_Date(&#39;2024-02-02&#39;, &#39;YYYY-MM-DD&#39;),
+56901239501);
+Insert into Maintenance (MaintenanceID, MaintenanceName, DateConducted,
+EmployeeID)
+values (027810276091, &#39;Glitch_Repair&#39;, To_Date(&#39;2024-02-02&#39;, &#39;YYYY-MM-DD&#39;),
+56901239502);
+Insert into Maintenance (MaintenanceID, MaintenanceName, DateConducted,
+EmployeeID)
+values (027810276092, &#39;Reloading_Coins&#39;, To_Date(&#39;2024-02-04&#39;, &#39;YYYY-MM-DD&#39;),
+56901239503);
+Insert into Maintenance (MaintenanceID, MaintenanceName, DateConducted,
+EmployeeID)
+
+values (027810276093, &#39;Fixing_Buttons&#39;, To_Date(&#39;2024-02-07&#39;, &#39;YYYY-MM-DD&#39;),
+56901239504);
+Insert into Maintenance (MaintenanceID, MaintenanceName, DateConducted,
+EmployeeID)
+values (027810276094, &#39;Hole_in_Screen&#39;, To_Date(&#39;2024-02-08&#39;, &#39;YYYY-MM-DD&#39;),
+56901239505);
+
+Create Table Games(
+GameID Number(11,0) Not Null,
+GameName Varchar2(40),
+AmountPaid Number(5,0),
+AmountGiven Number(5,0),
+EmployeeID Number(11,0),
+CustomerID Number(11,0),
+MaintenanceID Number(11,0),
+Constraint Games_PK Primary Key (GameID),
+Constraint Games_FK1 Foreign Key (EmployeeID) References
+Employee(EmployeeID),
+Constraint Games_FK2 Foreign Key (CustomerID) References
+Customers(CustomerID),
+Constraint Games_FK3 Foreign Key (MaintenanceID) References
+Maintenance(MaintenanceID)
+);
+
+Insert into Games (GameID, GameName, AmountPaid, AmountGiven, EmployeeID,
+CustomerID, MaintenanceID)
+values (02801034900, &#39;Buffalo&#39;, 100, 1, 75389231857, 08529212931, 027810276090);
+Insert into Games (GameID, GameName, AmountPaid, AmountGiven, EmployeeID,
+CustomerID, MaintenanceID)
+
+values (02801034901, &#39;MagicBuddha&#39;, 10000, 50, 89913745122, 08529212932,
+27810276091);
+Insert into Games (GameID, GameName, AmountPaid, AmountGiven, EmployeeID,
+CustomerID, MaintenanceID)
+values (02801034902, &#39;Drums&#39;, 500, 10000, 56781034209, 08529212933,
+027810276092);
+Insert into Games (GameID, GameName, AmountPaid, AmountGiven, EmployeeID,
+CustomerID, MaintenanceID)
+values (02801034903, &#39;TheMask&#39;, 1000, 30000, 8235760912, 08529212934,
+027810276093);
+Insert into Games (GameID, GameName, AmountPaid, AmountGiven, EmployeeID,
+CustomerID, MaintenanceID)
+values (02801034904, &#39;Bees&#39;, 10, 500, 56901239500, 08529212935, 027810276094);
+
+Create Table DateContacted(
+EmployeeID Number(11,0) Not Null,
+MaintenanceID Number(11,0),
+DateContacted Date,
+Constraint DateContacted_PK Primary Key (EmployeeID, MaintenanceID),
+Constraint DateContacted_FK1 Foreign Key (EmployeeID) References
+Employee(EmployeeID),
+Constraint DateContacted_FK2 Foreign Key (MaintenanceID) References
+Maintenance(MaintenanceID)
+);
+
+Insert into DateContacted (EmployeeID, MaintenanceID, DateContacted)
+values (56901239501, 027810276090, To_Date(&#39;2024-01-02&#39;, &#39;YYYY-MM-DD&#39;));
+Insert into DateContacted (EmployeeID, MaintenanceID, DateContacted)
+values (56901239502, 027810276091, To_Date(&#39;2024-01-27&#39;, &#39;YYYY-MM-DD&#39;));
+Insert into DateContacted (EmployeeID, MaintenanceID, DateContacted)
+
+values (56901239503, 027810276092, To_Date(&#39;2024-01-20&#39;, &#39;YYYY-MM-DD&#39;));
+Insert into DateContacted (EmployeeID, MaintenanceID, DateContacted)
+values (56901239504, 027810276093, To_Date(&#39;2024-01-20&#39;, &#39;YYYY-MM-DD&#39;));
+Insert into DateContacted (EmployeeID, MaintenanceID, DateContacted)
+values (56901239505, 027810276094, To_Date(&#39;2024-01-18&#39;, &#39;YYYY-MM-DD&#39;));
